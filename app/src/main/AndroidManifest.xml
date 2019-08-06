@@ -9,13 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Exer_Logo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".App_Sign">
+
+        </activity>
+        <activity android:name=".inter_dois" />
+        <activity android:name=".projetoLogin_pag" />
+        <activity android:name=".projetoLogin" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
